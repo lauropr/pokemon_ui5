@@ -1,0 +1,22 @@
+<mvc:View
+    controllerName="pokemon.pokemon.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:filterbar="sap.ui.comp.filterbar"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<HeaderContainer>
+							<filterbar:FilterBar>
+							</filterbar:FilterBar>
+					    </HeaderContainer>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
